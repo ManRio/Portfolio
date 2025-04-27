@@ -15,7 +15,7 @@ function Preloader() {
     <div className='fixed inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 flex flex-col justify-center items-center z-50'>
       {/* Animación del logo */}
       <motion.img
-        src='/src/assets/logo.png'
+        src='/assets/logo.png'
         alt='Logo Manuel Ríos'
         className='h-28 w-28 mb-6'
         initial={{ scale: 0 }}
