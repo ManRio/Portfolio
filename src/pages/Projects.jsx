@@ -6,7 +6,7 @@ const projects = [
     title: 'StockIt',
     description:
       'Gestión de inventarios moderna para almacenes y tiendas, construido como proyecto didáctico.',
-    image: '/src/assets/LogoStockIt.png',
+    image: '/assets/LogoStockIt.png',
     demoLink: '/projects/stockit',
     codeLink: 'https://github.com/ManRio/StockIt',
     external: false,
@@ -16,7 +16,7 @@ const projects = [
     title: 'Landing Page Responsive',
     description:
       'Landing page completamente responsive construida para prácticas de maquetación moderna.',
-    image: '/src/assets/landing.jpg',
+    image: '/assets/landing.jpg',
     demoLink: '/projects/landingpageresponsive',
     codeLink: 'https://github.com/ManRio/landingPageResponsive',
     external: false,
@@ -26,7 +26,7 @@ const projects = [
     title: 'Jamar',
     description:
       'Aplicación de gestión empresarial desarrollada como proyecto final, con Deploy online.',
-    image: '/src/assets/jamar.jpg',
+    image: '/assets/jamar.jpg',
     demoLink: 'http://jamarmedia.es/inicio',
     codeLink: 'https://github.com/ManRio/jamar',
     external: true,

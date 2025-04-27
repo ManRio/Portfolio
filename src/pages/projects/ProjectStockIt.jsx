@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 // Imágenes
-import landingStockit from '../../assets/landingStockit.png';
-import loginStockit from '../../assets/LoginStockit.png';
-import dashboardStockit from '../../assets/DashboardStockit.png';
-import otherStockit from '../../assets/otherStockit.png';
+import landingStockit from '/assets/landingStockit.png';
+import loginStockit from '/assets/LoginStockit.png';
+import dashboardStockit from '/assets/DashboardStockit.png';
+import otherStockit from '/assets/otherStockit.png';
 
 // Iconos Tecnologías
 import {

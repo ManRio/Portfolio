@@ -22,7 +22,7 @@ function Home() {
         </div>
         <div className='relative'>
           <img
-            src='src/assets/foto2.png'
+            src='/assets/foto2.png'
             alt='Manuel Ríos'
             className='h-48 w-48 sm:h-64 sm:w-64 object-cover rounded-full shadow-2xl hover:scale-105 transition-transform duration-300'
           />

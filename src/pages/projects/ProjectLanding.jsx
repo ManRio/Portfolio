@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
-import LandingMobile from '/src/assets/LandingMobile.png';
-import LandingPC from '/src/assets/LandingPC.png';
+import LandingMobile from '/assets/LandingMobile.png';
+import LandingPC from '/assets/LandingPC.png';
 
 function ProjectLanding() {
   const navigate = useNavigate();
