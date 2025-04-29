@@ -113,6 +113,7 @@ function Navbar() {
           >
             Contacto
           </a>
+          <ThemeToggle />
         </div>
       )}
     </nav>
