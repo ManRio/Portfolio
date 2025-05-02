@@ -47,7 +47,7 @@ function About() {
         </div>
 
         {/* Stack tecnológico */}
-        <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8 text-center'>
+        <div className='mt-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8 text-center'>
           <IconWithLabel icon={<FaHtml5 />} label='HTML5' />
           <IconWithLabel icon={<FaCss3Alt />} label='CSS3' />
           <IconWithLabel icon={<FaJs />} label='JavaScript' />
@@ -65,6 +65,16 @@ function About() {
           <IconWithLabel icon={<FaBug />} label='Postman' />
           <IconWithLabel icon={<FaCodeBranch />} label='Git' />
           <IconWithLabel icon={<FaGithub />} label='GitHub' />
+        </div>
+        {/* Botón Descargar CV */}
+        <div className='flex justify-center mt-8'>
+          <a
+            href='/manuel-rios-cv.pdf'
+            download
+            className='flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-lg transition transform hover:scale-105 active:scale-95 duration-200'
+          >
+            <span className='text-xl'>📄</span> Descargar CV
+          </a>
         </div>
       </motion.div>
     </section>

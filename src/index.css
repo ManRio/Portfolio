@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Fira Code', monospace;
+  @apply font-mono;
 }
 
 html {

@@ -12,6 +12,7 @@ import Preloader from './components/Preloader';
 // Importamos las nuevas páginas de proyectos
 import ProjectStockIt from './pages/projects/ProjectStockIt';
 import ProjectLanding from './pages/projects/ProjectLanding';
+import ProjectNewsReader from './pages/projects/ProjectNewsReader';
 
 function App() {
   return (
@@ -38,6 +39,12 @@ function App() {
           path='/projects/landingpageresponsive'
           element={<ProjectLanding />}
         />
+        <Route
+          path='/projects/ProjectNewsReader'
+          element={<ProjectNewsReader />}
+        />
+
+        {/* Rutas de páginas individuales */}
       </Routes>
       <Footer />
       <ScrollToTop />
